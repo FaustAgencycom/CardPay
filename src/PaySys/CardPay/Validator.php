@@ -54,7 +54,7 @@ class Validator
 
 	public static function isMid($s) : bool
 	{
-		return (is_string($s) && preg_match('/^\d{3,4}$/', $s));
+		return (is_string($s) && preg_match('/^\d{3,5}$/', $s));
 	}
 
 	public static function isKey($s) : bool
